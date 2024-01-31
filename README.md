@@ -124,14 +124,18 @@ http://name-you-put-in-hosts-and-step10
 
 <h1>Issues might encounter</h1>
 
-<h4>First Issue: 404 not found:: Can’t access the static Laravel front-end</h4>
+<ul>
+
+<li><h4>First Issue: 404 not found:: Can’t access the static Laravel front-end</h4></li>
 <p><i>Ensure that Nginx has the necessary permissions to access the files in your Laravel project. The Nginx process needs to have read permissions for the files and execute permissions for the directories.</i></p>
 
 ```
 docker-compose exec workspace chmod -R 755 /var/www/your-project-name
 ```
 
-<h4>Second Issue: laravel — The stream or file “/storage/logs/laravel.log” could not be opened in append mode: failed to open stream: Permission denied</h4>
+
+<li><h4>Second Issue: laravel — The stream or file “/storage/logs/laravel.log” could not be opened in append mode: failed to open stream: Permission denied</h4></li>
+
 
 ```
 /var/www/`project-name`#  sudo chmod -R ugo+rw storage
