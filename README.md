@@ -23,48 +23,54 @@
   </ul>
 
   <h1>Steps for Installing Laradock</h1>
+  <ul>
+  
+  <li>
   <h4>Step 1: Create a folder of you want to create your file, so in my case i create a folder structure like this </h4>
+  </li>
   &nbsp<img alt="Folder Structure" src="https://raw.githubusercontent.com/TianMeds/image--stocks-for-coding/main/image_2024-01-31_175528055.png"/>
+  <li>
   <h4>Step 2: So you should cd to your Backend Folder, so if you are in the Desktop this is how you will do it.</h4>
+  </li>
 
 ```
 cd Main Folder
 cd Backend Folder
 ```  
 
-<h4>Step 3: Clone Laradock to folder of choice </h4>
+<li><h4>Step 3: Clone Laradock to folder of choice </h4></li>
 
 ```
 git clone https://github.com/Laradock/laradock.git
 ```
-<h4>Step 4: Enter the Laradock folder created inside the Backend Folder, so it means that you will cd again after that rename .env.example to .env</h4>
+<li><h4>Step 4: Enter the Laradock folder created inside the Backend Folder, so it means that you will cd again after that rename .env.example to .env</h4></li>
 
 ```
 cp .env.example .env
 ```
 
-<h4>Step 5: Change PHP version in .env to 8.2</h4>
+<li><h4>Step 5: Change PHP version in .env to 8.2</h4></li>
 &emsp;<img alt="PHP Version ENV" src="https://raw.githubusercontent.com/TianMeds/image--stocks-for-coding/main/image_2024-01-31_175425942.png"/>
 
-<h4>Step 6: Run your Docker containers</h4>
+<li><h4>Step 6: Run your Docker containers</h4></li>
 
 ```
 docker-compose up -d nginx mysql phpmyadmin workspace
 ```
 
-<h4>Step 7: Enter Workspace container, to run commands like artisan, phpunit</h4>
+<li><h4>Step 7: Enter Workspace container, to run commands like artisan, phpunit</h4></li>
 
 ```
 docker-compose exec workspace bash
 ```
 
-<h4>Step 8: Create the project or the Laravel Application</h4>
+<li><h4>Step 8: Create the project or the Laravel Application</h4></li>
 
 ```
 composer create-project laravel/laravel `your-project-name`
 ```
 
-<h4>Step 9: Create DB for the project</h4>
+<li><h4>Step 9: Create DB for the project</h4></li>
 &emsp;<ul>
   <li>Open phpMyAdmin, localhost:8081</li>
   <li>server: mysql</li>
@@ -72,7 +78,7 @@ composer create-project laravel/laravel `your-project-name`
   <li>pass: root</li>
 </ul>
 
-<h4>Step 10: Create NGINX Configuration for the project</h4>
+<li><h4>Step 10: Create NGINX Configuration for the project</h4></li>
 &emsp;<p><i>Note you can name it all the way you i just make it consistent so not too hard to remember</i></p>
 
 ```
@@ -84,7 +90,7 @@ composer create-project laravel/laravel `your-project-name`
     root /var/www/`your-project-name`/public;
 ```
 
-<h4>Step 11: Now after that make sure to go to your /etc/hosts in your Unit for window users you can thru it by</h4>
+<li><h4>Step 11: Now after that make sure to go to your /etc/hosts in your Unit for window users you can thru it by</h4></li>
 
 ```
 C Drive -> Windows -> System32 -> Drivers -> etc -> hosts
@@ -102,7 +108,7 @@ C Drive -> Windows -> System32 -> Drivers -> etc -> hosts
 127.0.0.1  `Name it on what you named in the step 10`
 ```
 
-<h4>Step 12: Now Laravel Interface should be searchable and seen when you search it, It will be like this when you search it.</h4>
+<li><h4>Step 12: Now Laravel Interface should be searchable and seen when you search it, It will be like this when you search it.</h4></li>
 
 ```
 http://name-you-put-in-hosts-and-step10
@@ -112,9 +118,11 @@ http://name-you-put-in-hosts-and-step10
 
 &emsp;<img alt="Laravel Interface" src="https://raw.githubusercontent.com/TianMeds/image--stocks-for-coding/main/image_2024-01-31_175442083.png"/> 
 
-<p><b>Bonus Issues we resolve in the process</b></p>
+  </ul>
+  
+ 
 
-<h1>Issues</h1>
+<h1>Issues might encounter</h1>
 
 <h4>First Issue: 404 not found:: Can’t access the static Laravel front-end</h4>
 <p><i>Ensure that Nginx has the necessary permissions to access the files in your Laravel project. The Nginx process needs to have read permissions for the files and execute permissions for the directories.</i></p>
