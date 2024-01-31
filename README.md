@@ -160,5 +160,14 @@ docker-compose up -d `container`
 docker-compose up -d workspace
 ```
 
+<h1>References</h1>
+<li><p><a href="https://laradock.io">Laradock Documentation</a></p></li>
+<li><p><a href="https://github.com/laradock/laradock">Laradock Repository</a></p></li>
+<li><p><a href="https://dev.to/moghwan/dockerize-your-laravel-project-with-laradock-2io1">Dev Community Article</a></p></li>
+
+
+<h1>Special Contribution</h1>
+<h4>Special thanks also for <a href="https://github.com/jbberbon">John Christian Berbon</a> for this guide</h4>
+
 
   
