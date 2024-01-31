@@ -23,9 +23,9 @@
   </ul>
 
   <h1>Steps for Installing Laradock</h1>
-  <h4>Step 1: Create a folder of you want to create your file, so in my case i create a folder structure like this </h2>
-  &emsp;<img alt="Folder Structure" src="https://raw.githubusercontent.com/TianMeds/image--stocks-for-coding/main/image_2024-01-31_175528055.png"/>
-  <h4>Step 2: So you should cd to your Backend Folder, so if you are in the Desktop this is how you will do it.</h4>
+  <h2>Step 1: Create a folder of you want to create your file, so in my case i create a folder structure like this </h2>
+\t<img alt="Folder Structure" src="https://raw.githubusercontent.com/TianMeds/image--stocks-for-coding/main/image_2024-01-31_175528055.png"/>
+  <h2>Step 2: So you should cd to your Backend Folder, so if you are in the Desktop this is how you will do it.</h2>
 
 ```
 cd Main Folder
@@ -125,8 +125,9 @@ docker-compose exec workspace chmod -R 755 /var/www/your-project-name
 
 <h4>Second Issue: laravel — The stream or file “/storage/logs/laravel.log” could not be opened in append mode: failed to open stream: Permission denied</h4>
 
+```
 /var/www/`project-name`#  sudo chmod -R ugo+rw storage
-
+```
 
 <h1>Notes</h1>
 <ul>
