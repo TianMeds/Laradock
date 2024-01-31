@@ -9,7 +9,7 @@
   <strong>Laradock</strong>
   <ul>
     <li>
-      Laradock simplifies the process of dockerizing Laravel applications, offering a convenient and efficient solution for developers. Dockerizing your Laravel project with Laradock allows you to encapsulate the entire development environment, making it portable and reproducible across different systems. This guide will walk you through the straightforward process of installing Laradock for your Laravel project. You can <p><a href="https://laradock.io">Visit Laradock Documentation</a></p> here
+      <p>Laradock simplifies the process of dockerizing Laravel applications, offering a convenient and efficient solution for developers. Dockerizing your Laravel project with Laradock allows you to encapsulate the entire development environment, making it portable and reproducible across different systems. This guide will walk you through the straightforward process of installing Laradock for your Laravel project. You can <a href="https://laradock.io">Visit Laradock Documentation</a> here</p>
     </li>
   </ul>
 
