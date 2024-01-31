@@ -6,14 +6,14 @@
 
   <h3>So, right now we’re going to talk about how to install a Laradock or a dockerized Laravel application, but first, what is Laradock?</h3>
 
-  <strong>Laradock</strong>
+  <h1>Laradock</h1>
   <ul>
     <li>
       <p>Laradock simplifies the process of dockerizing Laravel applications, offering a convenient and efficient solution for developers. Dockerizing your Laravel project with Laradock allows you to encapsulate the entire development environment, making it portable and reproducible across different systems. This guide will walk you through the straightforward process of installing Laradock for your Laravel project. You can <a href="https://laradock.io">Visit Laradock Documentation</a> here</p>
     </li>
   </ul>
 
-  <strong>Tools We need</strong>
+  <h1>Tools We need</h1>
   <ul>
   <li>Docker</li>
   <li>Visual Studio Code or any IDE you want</li>
