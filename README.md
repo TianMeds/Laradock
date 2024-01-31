@@ -142,6 +142,7 @@ docker-compose exec workspace chmod -R 755 /var/www/your-project-name
 ```
 
 <h1>Notes</h1>
+<h1></h1>
 <ul>
 <li>Rebuilding a container</li>
 </ul>
