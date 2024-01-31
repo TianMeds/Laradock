@@ -23,8 +23,8 @@
   </ul>
 
   <h1>Steps for Installing Laradock</h1>
-  <h4><strong>Step 1: Create a folder of you want to create your file, so in my case i create a folder structure like this </strong></h4>
-  &nbsp;<img alt="Folder Structure" src="https://raw.githubusercontent.com/TianMeds/image--stocks-for-coding/main/image_2024-01-31_175528055.png"/>
+  <h4>Step 1: Create a folder of you want to create your file, so in my case i create a folder structure like this </h4>
+  &nbsp<img alt="Folder Structure" src="https://raw.githubusercontent.com/TianMeds/image--stocks-for-coding/main/image_2024-01-31_175528055.png"/>
   <h4>Step 2: So you should cd to your Backend Folder, so if you are in the Desktop this is how you will do it.</h4>
 
 ```
