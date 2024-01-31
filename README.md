@@ -121,7 +121,7 @@ http://name-you-put-in-hosts-and-step10
   </ul>
   
  
-
+<div>
 <h1>Issues might encounter</h1>
 
 <ul>
@@ -140,9 +140,9 @@ docker-compose exec workspace chmod -R 755 /var/www/your-project-name
 ```
 /var/www/`project-name`#  sudo chmod -R ugo+rw storage
 ```
+</div>
 
 <h1>Notes</h1>
-<h1></h1>
 <ul>
 <li>Rebuilding a container</li>
 </ul>
