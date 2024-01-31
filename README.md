@@ -27,12 +27,11 @@
 <img alt="Folder Structure" src="https://raw.githubusercontent.com/TianMeds/image--stocks-for-coding/main/image_2024-01-31_175528055.png"/>
 <h4>Step 2: So you should cd to your Backend Folder, so if you are in the Desktop this is how you will do it.</h4>
 ```
-
 cd Main Folder
 cd Backend Folder
-
 ```
 <h4>Step 3: Clone Laradock to folder of choice </h4>
+
 ```
 git clone https://github.com/Laradock/laradock.git
 ```
